@@ -35,7 +35,7 @@ class Header extends React.Component{
                             <div className="col-md-4">
                                 <ul className="nav ml-lg-auto">
                                     <li className="nav-item head-text">
-                                        <a className="nav-link p-l-r hoverBorderHeader"  href="#" >
+                                        <a className="nav-link p-l-r hoverBorderHeader active-clr "  href="#" >
                                             <svg version="1.1" id="Capa_1" x="0px" y="0px"  viewBox="0 0 512 512" style={{enableBackground:"new 0 0 512 512"}} width="20px" className="pr-2"><g><g>
                                                 <g>
                                                     <path d="M155.327,57.142c-51.531,0-93.454,44.45-93.454,99.086c0,54.636,41.923,99.086,93.454,99.086s93.455-44.45,93.455-99.086    C248.782,101.592,206.859,57.142,155.327,57.142z" data-original="#000000" className="active-path" data-old_color="#000000" fill="#A9A9A9"/>
@@ -58,7 +58,7 @@ class Header extends React.Component{
                                         </a>
                                     </li>
                                     <li className="nav-item head-text">
-                                        <a className="nav-link hoverBorderHeader" href="#">
+                                        <a className="nav-link hoverBorderHeader " href="#">
                                             <svg  version="1.1" id="Capa_1" x="0px" y="0px" width="20px" height="17px" viewBox="0 0 510 510" style={{enableBackground:"new 0 0 510 510"}} className="pr-2"><g><g>
                                                 <g id="messenger">
                                                     <path d="M459,0H51C22.95,0,0,22.95,0,51v459l102-102h357c28.05,0,51-22.95,51-51V51C510,22.95,487.05,0,459,0z" data-original="#000000" className="active-path" data-old_color="#000000" fill="#a9a9a9"/>
@@ -76,6 +76,7 @@ class Header extends React.Component{
                                             </svg>Video Calls
                                         </a>
                                     </li>
+                                    <span class="border"></span>
                                 </ul>
                             </div>
                             <div className="col-md-4 p-r-0">
